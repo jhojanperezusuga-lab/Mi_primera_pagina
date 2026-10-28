@@ -1,0 +1,119 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+    
+body{
+
+    margin: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(123, 131, 134);
+}
+
+
+.yo{
+    text-align: center;
+    background-color: rgb(207, 205, 205);
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid #2b312f62;
+    border-radius: 200px;
+    font-size: 30px;
+
+    
+
+
+}
+.Jhojan{
+    background-color:rgba(204, 207, 206, 0.863);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+
+.sobre-mi{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.numero{
+     display: block;
+    padding: 12px;
+    margin: 0 auto;
+    border: 2px solid #64d8ff;
+    border-radius: 10px;
+    background-color: #1b263b;
+    color: white;
+}
+
+.respuesta{
+    
+     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#gustos{
+    display: block;
+    padding: 1px;
+    margin: 0 auto;
+    border: 2px solid #b1b3b49d;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+#texto{
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#imagen{
+
+    display: block;         /* Clave para que margin auto funcione en una imagen */
+    margin: 20px auto;      /* Centra la imagen horizontalmente y le da espacio arriba/abajo */
+    width: 30%;             /* Mantiene tu tamaño */
+    max-width: 300px;       /* Opcional: para que no crezca demasiado en pantallas grandes */
+    border-radius: 40px;
+    box-shadow: 0 8px 80px -1px rgba(68, 171, 255, 0.5);
+    cursor: pointer;
+    
+}
+
+button{
+    display: block;
+    margin: 25px auto;
+    padding: 12px 25px;
+    background-color: #e9edf0;
+    color: #0d1b2a;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(252, 250, 250);
+}
+#ultimo{
+     text-align: center;
+    color: #fffdfd;
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: #000000;
+}
+
+#J{
+    cursor: pointer;
+    text-align: center;
+}
+
